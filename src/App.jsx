@@ -1,20 +1,11 @@
+import React from 'react'
 
-function App() {
-  const person = {
-    name: "Himanshu",
-    age: 25,
-    occupation: "Software Developer"
-  };
-
+const App = () => {
   return (
     <>
-    person.map((data)=(
-      <div key={data.name}>
-        <h1>data.name</h1>
-        <h1>data.age</h1>
-        <h1>data.occupation</h1>
-      </div>
-    ))
+    <div>
+      <h1 className=' size-3 bg-green-600 ' >Hi My Name Is Himanshu Joshi and i am from section 802</h1>
+    </div>
     </>
   )
 }
